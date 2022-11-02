@@ -2,7 +2,7 @@ package kezuk.core.player;
 
 import java.util.UUID;
 
-import kezuk.core.utils.ProfileUtils;
+import kezuk.core.utils.player.ProfileUtils;
 
 public class Profile {
 	

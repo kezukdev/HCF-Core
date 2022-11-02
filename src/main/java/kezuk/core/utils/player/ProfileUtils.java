@@ -1,4 +1,4 @@
-package kezuk.core.utils;
+package kezuk.core.utils.player;
 
 import java.util.UUID;
 
