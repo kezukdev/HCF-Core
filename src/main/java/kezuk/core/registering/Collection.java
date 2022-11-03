@@ -19,8 +19,6 @@ public class Collection {
 	
 	public Collection() {
 		this.regions = Arrays.asList(new SpawnRegions(), new WarzoneRegions(), new EndRegions());
-		for (Regions region : this.regions) {
-		}
 		this.profile = Maps.newHashMap();
 	}
 	
