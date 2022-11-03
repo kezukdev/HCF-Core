@@ -13,6 +13,7 @@ public class HCF extends JavaPlugin {
 	
 	public void onEnable() {
 		instance = this;
+		//TODO: SAVE FACTIONS IN BDD OR FILE AND LOAD IT AT THE START AND APPLY ALL OF THE FACTIONS CREATED IN THE FACTION LIST!
 		this.collection = new Collection();
 		this.objects = new Objects();
 	}
