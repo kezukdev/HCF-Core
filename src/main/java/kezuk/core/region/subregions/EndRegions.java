@@ -21,6 +21,11 @@ public class EndRegions extends Regions {
 	}
 
 	@Override
+	public List<Location> locations() {
+		return null;
+	}
+
+	@Override
 	public List<Location> kothLocations() {
 		return null;
 	}

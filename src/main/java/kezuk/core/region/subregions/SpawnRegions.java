@@ -21,6 +21,12 @@ public class SpawnRegions extends Regions {
 	}
 
 	@Override
+	public List<Location> locations() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
 	public List<Location> kothLocations() {
 		return null;
 	}
@@ -34,5 +40,4 @@ public class SpawnRegions extends Regions {
 	public boolean setKoth(final boolean bool) {
 		return this.onKoth = bool;
 	}
-
 }

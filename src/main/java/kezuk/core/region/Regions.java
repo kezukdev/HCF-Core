@@ -10,6 +10,7 @@ public abstract class Regions {
 	
 	public abstract String displayName();
 	public abstract boolean isBanable();
+	public abstract List<Location> locations();
 	public abstract List<Location> kothLocations();
 	public abstract boolean isOnKoth();
 	public abstract boolean setKoth(boolean bool);

@@ -12,5 +12,4 @@ public class Profile {
 		this.uuid = uuid;
 		ProfileUtils.addProfileByUUID(uuid, this);
 	}
-
 }

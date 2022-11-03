@@ -21,6 +21,12 @@ public class WarzoneRegions extends Regions {
 	}
 
 	@Override
+	public List<Location> locations() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	@Override
 	public List<Location> kothLocations() {
 		return null;
 	}
